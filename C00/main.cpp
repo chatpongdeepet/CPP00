@@ -28,5 +28,8 @@ int main() {
 	//ft_print_com2();
 	//std::cout << std::endl;
 
+	std::cout << "6. " << std::endl;
+	ft_putnbr(-16546216540000);
+
 	return 0;
 }

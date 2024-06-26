@@ -84,3 +84,26 @@ void ft_print_com2(void) {
 		++i;
 	}
 }
+
+void ft_putnbr(int n) {
+	if (n < INT_MIN) {
+		std::cout << INT_MIN;
+	}
+	else if (n > INT_MAX) {
+		std::cout << INT_MAX;
+	}
+	else {
+		std::cout << n;
+	}
+}
+
+void ft_print_combn(int n) {
+	int min, max, i;
+	min = 0;
+	max = 10;
+	
+	if (n > 0 && n < 10) {
+
+	}
+
+}
